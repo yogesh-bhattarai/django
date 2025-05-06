@@ -5,4 +5,4 @@ def home(request):
     return render(request,"index.html")
 
 def contact(request):
-    return HttpResponse("this is contact page")
+    return render(request,"contact.html")
